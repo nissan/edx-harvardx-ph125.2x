@@ -91,4 +91,4 @@ murders %>% ggplot(aes(population/10^6, total, label=abb)) +
   scale_color_discrete(name="Region") +
   theme_economist()
 
-
+geom_label()
